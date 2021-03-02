@@ -10,35 +10,6 @@ In this project, I had to first develop a pipeline for the lane finding algorith
 
 ---
 
-### Results
-
-**1. Lane Detection Images**
-
-The results of the sample images tested with the pipeline I developed is as follows.
-
-* ![solid-white-curve sample image][image1]
-* ![solid-white-right image][image2]
-* ![solid-yellow-curve image][image3]
-* ![solid-yellow-curve-2 image][image4]
-* ![solid-yellow-left image][image5]
-* ![white-car-lane-switch image][image6]
-
-
-I tested my pipeline with the test images before testing them with the video samples. The images are as follows: 
-
-[image1]: ./test_images/solidWhiteCurveprocessed.png (solid-white-curve sample image)
-[image2]: ./test_images/solidWhiteRightprocessed.png (solid-white-right image)
-[image3]: ./test_images/solidYellowCurveprocessed.png (solid-yellow-curve image)
-[image4]: ./test_images/solidYellowCurve2processed.png (solid-yellow-curve-2 image)
-[image5]: ./test_images/solidYellowLeftprocessed.png (solid-yellow-left imaged)
-[image6]: ./test_images/whiteCarLaneSwitchprocessed.png (white-car-lane-switch image)
-
-**2. Lane Detection Sample Videos**
-
-The results of the sample videos tested with the lane-line detection algorithm I developed can be found in ./test_video_output/ folder.
-
----
-
 ### Reflection
 
 **1. Algorithm/Pipeline design**
