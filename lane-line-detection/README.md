@@ -25,7 +25,7 @@ The design of the lane-line detection algorithm design consists of 5 steps.
 
 In order to draw a single line on the left and right lanes after applying Hough transform, the draw_lines() function is created such that it calculates the average line equation (mx + b) for both the left and right lanes. The line segments can be distinguished between the two sides if their gradients are positive or negative. Thus, the function calculates the average values of m and b the line segments on the left and right lines, and then draws the lines into the frame/image.
 
-**3. Potential shortcomings with current algorithm***
+**3. Potential shortcomings with current algorithm**
 
 A possible shortcoming can arise when objects other than the lines appear inside the defined polygon masked area. As the edge detection algorithm and subsequent Hough transformation is applied within the masked area, the presence of these objects will cause their edges to be detected as well. This will disrupt the line segments obtained, and even cause inaccurate markings into the frames.
 

@@ -148,7 +148,7 @@ def weighted_img(img, initial_img, α=0.8, β=1., γ=0.):
     return cv2.addWeighted(initial_img, α, img, β, γ)
 
 
-def test_images:
+def test_images():
         """
     the code will build the pipeline that will draw lane lines on test_images,
     then save them to the test_images_output directory
