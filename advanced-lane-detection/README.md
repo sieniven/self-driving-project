@@ -22,10 +22,9 @@ The outline of this project is:
 [image5]: ./output_images/perspective_transform/straight_lines2_undistorted_perspective.jpg "Warp Undistorted"
 [image6]: ./output_images/perspective_transform/straight_lines2_binary_perspective.jpg "Warp Binary"
 [image7]: ./examples/histogram.png "Histogram"
-[image8]: ./output_images/test_output/straight_lines2_undistorted_out.jpg "Visual"
-[image9]: ./output_images/test_output/straight_lines2_undistorted_output.jpg "Output"
-[video1]: ./output_videosproject_video_output.mp4 "Video"
-[video2]: ./output_videosproject_video_topview.mp4 "Topview"
+[image8]: ./output_images/test_output/straight_lines2_undistorted_out
+Here I'll talk about the approach I took, what techniques I used, what worked and why, where the pipeline might fail and how I might improve it if I were going to pursue this project further.  
+
 
 ---
 
@@ -137,7 +136,7 @@ Finally, we combined everything by apply perspective transform and warpping the 
 We consolidated all of the above capabilities and tested our algorithm on the project video.
 
 * [Test video results.](./output_videos/project_video_output.mp4)
-* [Test video results from top-view.](./output_videos/project_video_topview.mp4))
+* [Test video results from top-view.](./output_videos/project_video_topview.mp4)
 
 ---
 
