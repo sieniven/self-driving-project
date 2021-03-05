@@ -22,8 +22,7 @@ The outline of this project is:
 [image5]: ./output_images/perspective_transform/straight_lines2_undistorted_perspective.jpg "Warp Undistorted"
 [image6]: ./output_images/perspective_transform/straight_lines2_binary_perspective.jpg "Warp Binary"
 [image7]: ./examples/histogram.png "Histogram"
-[image8]: ./output_images/test_output/straight_lines2_undistorted_out
-Here I'll talk about the approach I took, what techniques I used, what worked and why, where the pipeline might fail and how I might improve it if I were going to pursue this project further.  
+[image8]: ./output_images/test_output/straight_lines2_undistorted_output.jpg "Results"
 
 
 ---
