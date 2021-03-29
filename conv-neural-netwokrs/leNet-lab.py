@@ -98,6 +98,8 @@ def LeNet(x):
 
     # Flatten. Input = 5x5x16. Output = 400.
     fc1 = tf.reshape(conv2, [-1, weights['wd1'].get_shape().as_list()[0]])
+    # or
+    # fc1 = flatten(conv2)
     
     # Layer 3: Fully Connected. Input = 400. Output = 120.
     fc1 = tf.add(tf.matmul(fc1, weights['wd1']), bias['bd1'])
