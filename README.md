@@ -31,3 +31,11 @@ Project to develop algorithms for functions used commonly in deep learning, and 
 ### 6. Traffic sign classifier project
 
 Project to develop deep learning model used to detect and identify traffic signs, using the German Traffic Sign Dataset. Identifying traffic signs is an important aspect of self-driving capability, and the ability to follow road rules and regulations. Refer to directory [**self-driving-project/traffic-sign-classifier/***](/traffic-sign-classifier/)
+
+### 7. Keras
+
+Project to develop deep learning models using Keras. Refer to directory [**self-driving-project/nn-keras/***](/nn-keras/)
+
+### 8. Transfer Learning
+
+Project to develop deep learning models using pre-trained networks such as VGG, Inception (GoogLeNet), ResNet, AlexNet. Refer to diretory [**self-driving-project/transfer-learning/***](/transfer-learning/)
